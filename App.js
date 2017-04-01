@@ -1,8 +1,7 @@
 import React from 'react';
 import { Button, Text, View } from 'react-native';
 
-import { DrawerNavigator } from 'react-navigation';
-import DrawerLayout from './DrawerLayout';
+import DrawerLayout from 'react-native-drawer-layout';
 
 const Landing = props => (
   <View
