@@ -2917,7 +2917,7 @@ react-native-drawer-layout-polyfill@^1.0.4:
   dependencies:
     react-native-drawer-layout "~1.1.5"
 
-react-native-drawer-layout@~1.1.5:
+react-native-drawer-layout@^1.1.6, react-native-drawer-layout@~1.1.5:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/react-native-drawer-layout/-/react-native-drawer-layout-1.1.6.tgz#e6fff2e2a13cd3821496827e65c20222d4441009"
   dependencies:
