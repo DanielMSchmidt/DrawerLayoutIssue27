@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Text, View } from 'react-native';
 
 import { DrawerNavigator } from 'react-navigation';
-import DrawerLayout from 'react-native-drawer-layout';
+import DrawerLayout from './DrawerLayout';
 
 const Landing = props => (
   <View
@@ -27,7 +27,7 @@ class App extends React.Component {
   render() {
     return (
       <DrawerLayout
-        drawerWidth={600}
+        drawerWidth={300}
         ref={ref => this.drawer = ref}
         renderNavigationView={() => (
           <View style={{ flex: 1, backgroundColor: '#FFF' }}>
